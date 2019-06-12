@@ -4,8 +4,11 @@ This is a text line extraction algorithm using scale space theory with anisotrop
 1. We used [VML-MOC](https://www.cs.bgu.ac.il/~berat/) dataset in the experiments 
 
 2. Multi skew dataset experiment:
+
 Copy `moc_dataset` into `matlab_line_extraction` folder
+
 Run `BatchLinesScriptMoc.m`
+
 Results are in `moc_dataset/test/moc_test_result/` folder
 
 3. Multi skew dataset evaluation:
