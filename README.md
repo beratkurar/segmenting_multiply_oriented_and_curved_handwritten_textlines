@@ -1,31 +1,27 @@
 # segmenting_multiply_oriented_and_curved_handwritten_textlines
 This is a text line extraction algorithm using scale space theory with anisotropic gaussian for multi skew lines.
 ### How to run the code
-1. We used [VML-MOC](https://www.cs.bgu.ac.il/~berat/) dataset in the experiments 
+1. Download [VML-MOC](https://www.cs.bgu.ac.il/~berat/) dataset in the experiments 
 
-2. Multi skew dataset experiment:
+2. Copy `moc_dataset` into `matlab_line_extraction` folder
 
-Copy `moc_dataset` into `matlab_line_extraction` folder
+3. Run `BatchLinesScriptMoc.m`
 
-Run `BatchLinesScriptMoc.m`
+4. Results are in `moc_dataset/test/moc_test_result/` folder
 
-Results are in `moc_dataset/test/moc_test_result/` folder
+5. Evaluation is done using divahisdb evaluator jar
 
-3. Multi skew dataset evaluation:
+6. Ground truth of this dataset is pixel labels. convert them to polygon labels to use diva evaluator.
 
-Evaluation is done using divahisdb evaluator jar
+7. Run `multi_skew_data_code/pixel_labels_to_polygon_labels.m`
 
-Ground truth of this dataset is pixel labels. convert them to polygon labels to use diva evaluator.
+8. Polygon labels are in `multi_skew_dataset/polygon_label_gt` folder
 
-Run `multi_skew_data_code/pixel_labels_to_polygon_labels.m`
+9. Copy `multi_skew_dataset/polygon_label_gt` into `multi_skew_data_and_result/multi_skew_dataset_result/polygon_label_gt` folder
 
-Polygon labels are in `multi_skew_dataset/polygon_label_gt` folder
+10. Copy `multi_skew_dataset/images` into `multi_skew_data_and_result/multi_skew_dataset_result/images` folder
 
-Copy `multi_skew_dataset/polygon_label_gt` into `multi_skew_data_and_result/multi_skew_dataset_result/polygon_label_gt` folder
+11. Run `convert_to_page_format.py` to get `multi_skew_prediction_xml` and `multi_skew_truth_xml`
 
-Copy `multi_skew_dataset/images` into `multi_skew_data_and_result/multi_skew_dataset_result/images` folder
-
-4. Run `convert_to_page_format.py` to get `multi_skew_prediction_xml` and `multi_skew_truth_xml`
-
-Run `batch.py`
+12. Run `batch.py`
 
