@@ -1,5 +1,7 @@
 # segmenting_multiply_oriented_and_curved_handwritten_textlines
 This is a text line extraction algorithm using scale space theory with anisotropic gaussian for multi skew lines.
+
+Code is adapted from [Rafi Cohen's code](http://www.cs.bgu.ac.il/~rafico/LineExtraction.zip)
 ### How to run the code
 1. Download [VML-MOC](https://www.cs.bgu.ac.il/~berat/) dataset in the experiments 
 
