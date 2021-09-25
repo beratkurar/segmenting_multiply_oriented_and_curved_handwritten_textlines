@@ -1,0 +1,30 @@
+ms_1.png	 line IU=0.067	 line F1=0.125
+ms_10.png	 line IU=0.035	 line F1=0.068
+ms_11.png	 line IU=0.018	 line F1=0.036
+ms_12.png	 line IU=0.108	 line F1=0.195
+ms_13.png	 line IU=0.25	 line F1=0.4
+ms_14.png	 line IU=0.119	 line F1=0.212
+ms_15.png	 line IU=0.2	 line F1=0.333
+ms_16.png	 line IU=0.0	 line F1=0.0
+ms_17.png	 line IU=0.315	 line F1=0.48
+ms_18.png	 line IU=0.0	 line F1=0.0
+ms_19.png	 line IU=0.305	 line F1=0.468
+ms_2.png	 line IU=0.234	 line F1=0.38
+ms_20.png	 line IU=0.367	 line F1=0.537
+ms_21.png	 line IU=0.148	 line F1=0.258
+ms_22.png	 line IU=0.333	 line F1=0.5
+ms_23.png	 line IU=0.629	 line F1=0.772
+ms_24.png	 line IU=0.172	 line F1=0.294
+ms_25.png	 line IU=0.05	 line F1=0.096
+ms_3.png	 line IU=0.24	 line F1=0.387
+ms_4.png	 line IU=0.059	 line F1=0.112
+ms_5.png	 line IU=0.085	 line F1=0.157
+ms_6.png	 line IU=0.421	 line F1=0.592
+ms_7.png	 line IU=0.305	 line F1=0.468
+ms_8.png	 line IU=0.352	 line F1=0.521
+ms_9.png	 line IU=0.19	 line F1=0.32
+
+
+
+mean line iu = 0.20008
+mean line f1 = 0.30844

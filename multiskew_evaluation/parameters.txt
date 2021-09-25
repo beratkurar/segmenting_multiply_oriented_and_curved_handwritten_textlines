@@ -1,0 +1,9 @@
+delta_theta = 2.5;
+theta = 0:delta_theta:180-delta_theta;
+
+% Evaluation Map estimation -  turn this option on for highly degraded gray scale images.
+options = struct('EuclideanDist',true, 'mergeLines', true, 'EMEstimation',false, 'theta',theta, 'skew',false,...
+    'cacheIntermediateResults', true, 'srcPath',srcPath, 'dstPath', dstPath, 'thsLow',10,'thsHigh',200,'Margins', 0.03);
+
+
+[result,Labels, linesMask, newLines] = ExtractLines(I, bin, options);
